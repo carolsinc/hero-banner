@@ -12,16 +12,24 @@ img {
   width: 100%;
 }
 
-.img-flex {
-  position: relative;
-}
-
 .banner {
-  position: absolute;
-  bottom: 5px;
+    position: relative;
 }
 
-h1 {
+.img-flex {
+  display: inline-block;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+h2 {
   display: inline;
   color: #fff;
   font-size: 4rem;
