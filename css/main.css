@@ -8,22 +8,28 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   width: 100%;
 }
 
 .banner {
-    position: relative;
+  position: relative;
+  max-height: 500px;
 }
 
 .img-flex {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
 .content {
   position: absolute;
-  left: 10px;
+  left: 50px;
+  right: 50px;
   bottom: 5px;
   max-width: 500px;
   overflow: hidden;
@@ -34,7 +40,6 @@ h2 {
   color: #fff;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
-  margin:0;
   padding: 0;
 }
 
